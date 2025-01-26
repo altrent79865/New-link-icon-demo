@@ -421,11 +421,11 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 68px;
-  height: 68px;
-  background-color: rgba(0, 0, 0, 0.3); /* opacity for background */
+  width: 64px;
+  height: 64px;
+  background-color: rgba(0, 0, 0, 0.3); /* opacity for background of circle */
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.8); /* White border with opacity */
+  border: 1px solid rgba(255, 255, 255, 0.8); /* White border with slight opacity change */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -434,11 +434,11 @@ body {
 
 /* Play icon that goes in circle */
 .icon-circle-background img.play-icon {
-  width: 34px;
-  height: 34px;
+  width: 32px;
+  height: 32px;
   position: relative;
   left: 4px;
-  opacity: 0.95;
+  opacity: 0.95; /* slight opacity change on play icon */
 }
 
 /* Layout for a Link item.  The link-img is for image accompanying a link. */

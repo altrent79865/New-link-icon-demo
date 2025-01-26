@@ -112,19 +112,23 @@ header {
   left: -8px;
 }
 
+/* Large photo at top of Gallery */
 .large-gallery-photo {
   position: relative;
   overflow: hidden;
-  height: 650px;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .large-gallery-photo img {
-  width: 97%;
-  margin-left: 13px;
-  margin-right: 15px;
-  margin-top: 60px;
-  max-height: 100%;
+  width: calc(100% - 28px);
+  height: auto;
   object-fit: cover;
+  object-position: center 40%;
+  margin-left: 14px;
+  margin-right: 14px;
 }
 
 .gallery {
@@ -158,22 +162,22 @@ header {
   left: 7px;
   width: 28px;
   height: 28px;
-  background-color: rgba(0, 0, 0, 0.3); /* Opacity for background */
+  background-color: rgba(0, 0, 0, 0.3); /* opacity for background of circle */
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.6); /* White border with opacity */
+  border: 1px solid rgba(255, 255, 255, 0.6); /* White border with slight opacity change */
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0;
 }
 
-/* Play icon that goes in circle */
+/* Play icon that goes in circle on thumbnails */
 .icon-circle-background img.play-icon {
   width: 14px;
   height: 14px;
   position: relative;
   left: 1px;
-  opacity: 0.95;
+  opacity: 0.95; /* slight opacity change on play icon */
 }
 
 /* Image circle behind play and link icons on large images */
@@ -184,14 +188,14 @@ header {
   height: 36px;
 }
 
-/* Play icon that goes in large circle */
+/* Play icon that goes in circle on large images */
 .icon-circle-background-large img.play-icon-large {
   width: 18px;
   height: 18px;
   position: relative;
-  left: 1px;
+  left: 2px;
   margin: 0;
-  opacity: 0.95;
+  opacity: 0.95; /* slight opacity change on play icon */
 }
 
 .image-wrapper img {
