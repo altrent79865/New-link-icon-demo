@@ -116,7 +116,8 @@ header {
 .large-gallery-photo {
   position: relative;
   overflow: hidden;
-  min-height: 50vh;
+  /* min-height: 50vh; */
+  min-height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -298,4 +299,28 @@ footer {
 
 .dropdown-close-btn:hover {
   color: #000;
+}
+
+/* Media Queries for new play and link icons */
+@media (max-width: 600px) {
+  .large-gallery-photo {
+    min-height: 200px;
+  }
+
+  .large-gallery-photo img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Image circle behind play and link icons on large images */
+  .icon-circle-background-large {
+    width: 32px;
+    height: 32px;
+  }
+
+  /* Play icon that goes in circle on large images */
+  .icon-circle-background-large img.play-icon-large {
+    width: 16px;
+    height: 16px;
+  }
 }
