@@ -159,7 +159,7 @@ header {
 /* Image circle behind play and link icons on thumbnails */
 .icon-circle-background {
   position: absolute;
-  bottom: 7px;
+  bottom: 6px;
   left: 5px;
   width: 28px;
   height: 28px;
