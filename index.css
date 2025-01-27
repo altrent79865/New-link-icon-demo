@@ -159,8 +159,8 @@ header {
 /* Image circle behind play and link icons on thumbnails */
 .icon-circle-background {
   position: absolute;
-  bottom: 7px;
-  left: 7px;
+  bottom: 6px;
+  left: 6px;
   width: 28px;
   height: 28px;
   background-color: rgba(0, 0, 0, 0.3); /* opacity for background of circle */
@@ -303,6 +303,11 @@ footer {
 
 /* Media Queries for new play and link icons */
 @media (max-width: 600px) {
+  .icon-circle-background {
+    bottom: 5px;
+    left: 5px;
+  }
+  
   .large-gallery-photo {
     min-height: 200px;
   }
@@ -316,6 +321,8 @@ footer {
   .icon-circle-background-large {
     width: 32px;
     height: 32px;
+    bottom: 5px;
+    left: 19px;
   }
 
   /* Play icon that goes in circle on large images */
