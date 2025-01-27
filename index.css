@@ -309,6 +309,7 @@ footer {
   }
 
   .large-gallery-photo {
+    width: calc(100% - 15px);
     min-height: 200px;
   }
 
