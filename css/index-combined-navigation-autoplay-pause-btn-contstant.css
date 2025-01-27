@@ -415,7 +415,7 @@ body {
   cursor: pointer;
 }
 
-/* Image circle behind play icons on video */
+/* IMAGE CIRCLE BEHIND NEW PLAY ICON ON VIDEO */
 .icon-circle-background {
   position: absolute;
   top: 50%;
@@ -432,7 +432,7 @@ body {
   padding: 0;
 }
 
-/* Play icon that goes in circle */
+/* NEW PLAY ICON THAT GOES IN CIRCLE */
 .icon-circle-background img.play-icon {
   width: 32px;
   height: 32px;
@@ -794,6 +794,14 @@ body {
     align-self: flex-start;
   }
 
+  .first-frame-container {
+    /* Start with elements fully transparent and off-screen at the bottom */
+    opacity: 0;
+    transform: translateY(100%);
+    animation: vertical-slide-in 0.2s forwards;
+    animation-delay: 0.1s;
+  }
+
   .link-container {
     height: auto;
     padding-top: 0;
@@ -841,6 +849,13 @@ body {
     background-color: black;
     max-height: calc(100vh - 120px);
     padding-top: -8px;
+  }
+
+  .first-frame-container {
+    /* Start with elements fully transparent and off-screen to the right */
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slide-in 0.3s forwards;
   }
 
   /* Container for text related to a link media item, specifically, link-title, link-description, url clickable text and open and save link buttons  */
