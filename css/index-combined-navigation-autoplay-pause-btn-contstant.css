@@ -769,12 +769,25 @@ body {
     transform: translateY(0);
   }
 }
+@-webkit-keyframes vertical-slide-in {
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0); /* iOS-specific prefix */
+  }
+}
 
 /* To animate first slide sliding in from the right side when screen sizes are 601px or larger width */
 @keyframes slide-in {
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@keyframes slide-in {
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
   }
 }
 
@@ -797,9 +810,11 @@ body {
   .first-frame-container {
     /* Start with elements fully transparent and off-screen at the bottom */
     opacity: 0;
-    transform: translateY(100%);
+    -webkit-transform: translateY(100%); /* iOS-specific prefix */
     animation: vertical-slide-in 0.2s forwards;
+    -webkit-animation: vertical-slide-in 0.2s forwards; /* iOS-specific prefix */
     animation-delay: 0.1s;
+    will-change: transform, opacity;
   }
 
   .link-container {
@@ -856,6 +871,7 @@ body {
     opacity: 0;
     transform: translateX(100%);
     animation: slide-in 0.3s forwards;
+    will-change: transform, opacity;
   }
 
   /* Container for text related to a link media item, specifically, link-title, link-description, url clickable text and open and save link buttons  */
