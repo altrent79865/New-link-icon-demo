@@ -403,18 +403,6 @@ body {
   object-fit: contain;
 }
 
-.centered-video_play-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 68px;
-  height: 68px;
-  opacity: 0.9;
-  object-fit: contain;
-  cursor: pointer;
-}
-
 /* IMAGE CIRCLE BEHIND NEW PLAY ICON ON VIDEO */
 .icon-circle-background {
   position: absolute;
@@ -434,11 +422,11 @@ body {
 
 /* NEW PLAY ICON THAT GOES IN CIRCLE */
 .icon-circle-background img.play-icon {
-  width: 32px;
-  height: 32px;
+  width: 25px;
+  height: 25px;
   position: relative;
-  left: 4px;
-  opacity: 0.95; /* slight opacity change on play icon */
+  left: 3px;
+  /* opacity: 0.95;  */
 }
 
 /* Layout for a Link item.  The link-img is for image accompanying a link. */
