@@ -835,6 +835,18 @@ body {
   .right-arrow-btn {
     display: none;
   }
+
+  /* IMAGE CIRCLE BEHIND NEW PLAY ICON ON VIDEO */
+  .icon-circle-background {
+    width: 57px;
+    height: 57px;
+  }
+
+  /* NEW PLAY ICON THAT GOES IN CIRCLE */
+  .icon-circle-background img.play-icon {
+    width: 22px;
+    height: 22px;
+  }
 }
 
 @media (min-width: 601px) {
