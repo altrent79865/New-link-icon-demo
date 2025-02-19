@@ -189,7 +189,7 @@ header {
   /* opacity: 0.95;  */
 }
 
-/* Image circle behind play and link icons on large images */
+/* Image circle behind play and link icons on enlarged image */
 .icon-circle-background-large {
   position: absolute;
   left: 21px;
@@ -198,7 +198,7 @@ header {
   height: 36px;
 }
 
-/* Play icon that goes in circle on large images */
+/* Play icon that goes in circle on enlarged image */
 .icon-circle-background-large img.play-icon-large {
   width: 14px;
   height: 14px;
@@ -269,17 +269,17 @@ figcaption {
     height: auto;
   }
 
-  /* Image circle behind play and link icons on large images */
+  /* Image circle behind play and link icons on enlarged image */
   .icon-circle-background-large {
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
     bottom: 6px;
     left: 19px;
   }
 
-  /* Play icon that goes in circle on large images */
+  /* Play icon that goes in circle on enlarged image */
   .icon-circle-background-large img.play-icon-large {
-    width: 16px;
-    height: 16px;
+    width: 13px;
+    height: 13px;
   }
 }
