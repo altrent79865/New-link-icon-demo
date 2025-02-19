@@ -178,7 +178,6 @@ header {
   height: 11px;
   position: relative;
   left: 1px;
-  /* opacity: 0.95;  */
 }
 
 /* Link icon that goes in circle on thumbnails */
@@ -186,7 +185,6 @@ header {
   width: 15px;
   height: 15px;
   position: relative;
-  /* opacity: 0.95;  */
 }
 
 /* Image circle behind play and link icons on enlarged image */
@@ -205,7 +203,6 @@ header {
   position: relative;
   left: 1px;
   margin: 0;
-  /* opacity: 0.95;  */
 }
 
 .image-wrapper img {
