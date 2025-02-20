@@ -156,11 +156,11 @@ header {
   position: relative;
 }
 
-/************ CIRCLE BEHIND PLAY AND LINK ICONS GENERAL STYLES ************/
+/************ CIRCLE BEHIND PLAY AND LINK ICONS. GENERAL STYLES FOR THE CIRCLE ON THUMBS AND ENLARGED IMAGE, PLUS POSITIONING FOR ICONS ON THUMBS.  ************/
 .icon-circle-background {
   position: absolute;
   bottom: 6px;
-  left: 5px;
+  left: 7px;
   width: 28px;
   height: 28px;
   background-color: rgba(0, 0, 0, 0.3); /* opacity for background of circle */
@@ -174,7 +174,6 @@ header {
 
 /*********** CIRCLE BACKGROUND BEHIND PLAY ICON ON ENLARGED IMAGE ***********/
 .icon-circle-background-large {
-  position: absolute;
   left: 21px;
   bottom: 7px;
   width: 36px;
