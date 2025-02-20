@@ -174,8 +174,8 @@ header {
 
 /*********** CIRCLE BACKGROUND BEHIND PLAY ICON ON ENLARGED IMAGE ***********/
 .icon-circle-background-large {
-  left: 21px;
-  bottom: 7px;
+  left: 20px;
+  bottom: 6px;
   width: 36px;
   height: 36px;
 }
@@ -265,12 +265,16 @@ figcaption {
     height: auto;
   }
 
+  /******** CIRCLE BACKGROUND BEHIND PLAY AND LINK ICONS ON THUMBS *********/
+  .icon-circle-background {
+    left: 8px;
+  }
   /******** CIRCLE BACKGROUND BEHIND PLAY ICON ON ENLARGED IMAGE *********/
   .icon-circle-background-large {
     width: 34px;
     height: 34px;
+    left: 20px;
     bottom: 6px;
-    left: 19px;
   }
 
   /********** PLAY ICON ON CIRCLE BACKGROUND ON ENLARGED IMAGE ***********/
