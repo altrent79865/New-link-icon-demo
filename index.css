@@ -156,7 +156,7 @@ header {
   position: relative;
 }
 
-/* Image circle behind play and link icons */
+/************ CIRCLE BEHIND PLAY AND LINK ICONS GENERAL STYLES ************/
 .icon-circle-background {
   position: absolute;
   bottom: 6px;
@@ -172,22 +172,7 @@ header {
   padding: 0;
 }
 
-/* Play icon that goes in circle on thumbnails */
-.icon-circle-background img.play-icon {
-  width: 11px;
-  height: 11px;
-  position: relative;
-  left: 1px;
-}
-
-/* Link icon that goes in circle on thumbnails */
-.icon-circle-background img.link-icon {
-  width: 15px;
-  height: 15px;
-  position: relative;
-}
-
-/* Image circle behind play and link icons on enlarged image */
+/*********** CIRCLE BACKGROUND BEHIND PLAY AND LINK ICONS ON ENLARGED IMAGE ***********/
 .icon-circle-background-large {
   position: absolute;
   left: 21px;
@@ -196,13 +181,28 @@ header {
   height: 36px;
 }
 
-/* Play icon that goes in circle on enlarged image */
+/********* PLAY ICON ON CIRCLE BACKGROUND ON ENLARGED IMAGE ***********/
 .icon-circle-background-large img.play-icon-large {
   width: 14px;
   height: 14px;
   position: relative;
   left: 1px;
   margin: 0;
+}
+
+/********** PLAY ICON THAT GOES IN CIRCLE ON THUMBNAILS **********/
+.icon-circle-background img.play-icon {
+  width: 11px;
+  height: 11px;
+  position: relative;
+  left: 1px;
+}
+
+/*********** LINK ICON THAT GOES IN CIRCLE ON THUMBNAILS  ************/
+.icon-circle-background img.link-icon {
+  width: 15px;
+  height: 15px;
+  position: relative;
 }
 
 .image-wrapper img {
@@ -266,7 +266,7 @@ figcaption {
     height: auto;
   }
 
-  /* Image circle behind play and link icons on enlarged image */
+  /******** CIRCLE BACKGROUND BEHIND PLAY AND LINK ICONS ON ENLARGED IMAGE *********/
   .icon-circle-background-large {
     width: 34px;
     height: 34px;
@@ -274,7 +274,7 @@ figcaption {
     left: 19px;
   }
 
-  /* Play icon that goes in circle on enlarged image */
+  /********** PLAY ICON ON CIRCLE BACKGROUND ON ENLARGED IMAGE ***********/
   .icon-circle-background-large img.play-icon-large {
     width: 13px;
     height: 13px;

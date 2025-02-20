@@ -403,7 +403,7 @@ body {
   object-fit: contain;
 }
 
-/* IMAGE CIRCLE BEHIND NEW PLAY ICON ON VIDEO */
+/************ CIRCLE BACKGROUND BEHIND NEW PLAY ICON ON VIDEO ************/
 .icon-circle-background {
   position: absolute;
   top: 50%;
@@ -420,13 +420,12 @@ body {
   padding: 0;
 }
 
-/* NEW PLAY ICON THAT GOES IN CIRCLE */
+/************ NEW PLAY ICON THAT GOES IN CIRCLE BACKGROUND ************/
 .icon-circle-background img.play-icon {
   width: 25px;
   height: 25px;
   position: relative;
   left: 3px;
-  /* opacity: 0.95;  */
 }
 
 /* Layout for a Link item.  The link-img is for image accompanying a link. */
@@ -836,13 +835,13 @@ body {
     display: none;
   }
 
-  /* IMAGE CIRCLE BEHIND NEW PLAY ICON ON VIDEO */
+  /*********** CIRCLE BACKGROUND BEHIND NEW PLAY ICON ON VIDEO *********/
   .icon-circle-background {
     width: 57px;
     height: 57px;
   }
 
-  /* NEW PLAY ICON THAT GOES IN CIRCLE */
+  /*********** NEW PLAY ICON THAT GOES IN CIRCLE BACKGROUND ***********/
   .icon-circle-background img.play-icon {
     width: 22px;
     height: 22px;
