@@ -172,7 +172,7 @@ header {
   padding: 0;
 }
 
-/*********** CIRCLE BACKGROUND BEHIND PLAY AND LINK ICONS ON ENLARGED IMAGE ***********/
+/*********** CIRCLE BACKGROUND BEHIND PLAY ICON ON ENLARGED IMAGE ***********/
 .icon-circle-background-large {
   position: absolute;
   left: 21px;
@@ -266,7 +266,7 @@ figcaption {
     height: auto;
   }
 
-  /******** CIRCLE BACKGROUND BEHIND PLAY AND LINK ICONS ON ENLARGED IMAGE *********/
+  /******** CIRCLE BACKGROUND BEHIND PLAY ICON ON ENLARGED IMAGE *********/
   .icon-circle-background-large {
     width: 34px;
     height: 34px;
